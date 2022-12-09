@@ -1,0 +1,142 @@
+.p-toast.p-toast-top-right {
+    z-index: 1000;
+    top: 7rem;
+  }
+  
+  .input-button {
+   @include styleclass("text-lg border-round-md border-1");
+ }
+  
+   .label {
+     @include styleclass("block text-900 font-medium mb-2 line-height-3");
+   }
+   .label-info {
+     @include styleclass("mb-2 w-full line-height-3");
+   }
+   .label-info:not(.text-mute) {
+     @include styleclass("text-900");
+   }
+   .text-mute {
+     @include styleclass("text-600");
+   }
+  
+   .input-text {
+     @include styleclass("w-full mb-3 p-2 text-sm");
+   }
+  .input-custom {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    outline: none !important;
+    border-radius: 0;
+  }
+  
+    .btn {
+        @include styleclass('font-medium');
+        font-size: inherit !important;
+    }
+  
+    .btn-social-media {
+        @include styleclass(
+            'mr-2 w-6 font-medium border-1 surface-border surface-100 py-3 px-2 p-component hover:surface-200 active:surface-300 text-900 cursor-pointer transition-colors transition-duration-150 inline-flex align-items-center justify-content-center'
+        );
+    }
+  
+   .btn {
+     @include styleclass(
+       "font-medium inline-block justify-center px-4 py-2 text-sm border-round-md cursor-pointer border-1 text-center"
+     );
+   }
+   .btn-primary {
+     @include styleclass("bg-primary border-transparent hover:bg-blue-600");
+   }
+  
+   .btn-secondary {
+     @include styleclass("border-1 border-400 hover:surface-300");
+   }
+  
+   .btn-danger {
+      .btn {
+          @include styleclass('font-medium');
+          font-size: inherit !important;
+      }
+  
+      .btn-social-media {
+          @include styleclass(
+              'mr-2 w-6 font-medium border-1 surface-border surface-100 py-3 px-2 p-component hover:surface-200 active:surface-300 text-900 cursor-pointer transition-colors transition-duration-150 inline-flex align-items-center justify-content-center'
+          );
+      }
+  
+     .btn {
+       @include styleclass(
+         "font-medium inline-block justify-center px-4 py-2 text-sm border-round-md cursor-pointer border-1 text-center"
+       );
+     }
+     .btn-primary {
+       @include styleclass("bg-primary border-transparent hover:bg-blue-600");
+     }
+  
+     .btn-secondary {
+       @include styleclass("border-1 border-400 hover:surface-300");
+     }
+  
+     .btn-danger {
+       @include styleclass(
+         "bg-red-400 border-transparent text-white hover:bg-red-500"
+       );
+     }
+  
+     .btn-warning {
+       @include styleclass(
+         "bg-orange-400 text-white border-transparent hover:bg-orange-500"
+       );
+     }
+  
+     .btn-success {
+       @include styleclass(
+         "bg-green-400 text-white border-transparent hover:bg-green-500"
+       );
+     }
+  
+     .btn-custom {
+       @include styleclass(
+         "bg-transparent py-2 px-4 hover:text-gray-900 text-gray-700 border-none border-noround underline outline-none"
+       );
+     }
+  
+     .btn-icon .p-button-icon {
+       @include styleclass("mr-2");
+     }
+     .btn-icon .p-button-label {
+       @include styleclass("pt-2");
+     }
+  
+     @include styleclass(
+       "bg-red-400 border-transparent text-white hover:bg-red-500"
+     );
+   }
+  
+   .btn-warning {
+     @include styleclass(
+       "bg-orange-400 text-white border-transparent hover:bg-orange-500"
+     );
+   }
+  
+   .btn-success {
+     @include styleclass(
+       "bg-green-400 text-white border-transparent hover:bg-green-500"
+     );
+   }
+  
+   .btn-custom {
+     @include styleclass(
+       "bg-transparent py-2 px-4 hover:text-gray-900 text-gray-700 border-none border-noround underline outline-none"
+     );
+   }
+  
+   .btn-icon .p-button-icon {
+     @include styleclass("mr-2");
+   }
+   .btn-icon .p-button-label {
+     @include styleclass("pt-2");
+   }
